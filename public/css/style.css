@@ -32,6 +32,9 @@ footer {
   position: fixed;
   bottom: 0;
   font-size: 12px;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
 }
 
 p {
@@ -48,10 +51,4 @@ input[type="submit"] {
   border-radius: 5px;
   background: lightslategrey;
   color: white;
-}
-
-footer {
-  position: absolute;
-  right: 0;
-  margin-right: 10px;
 }
