@@ -1,0 +1,54 @@
+body {
+  background-image: url("/Users/elizabeth/Library/Mobile Documents/com~apple~CloudDocs/FutureProof/lap-1-assessment-master/public/assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  width: 50%;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  display: hidden;
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 36px;
+}
+
+footer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+
+p {
+  padding-left: 20px;
+}
+
+form > input {
+  font-size: 18px;
+  padding: 5px 20px;
+  border: none;
+}
+
+input[type="submit"] {
+  border-radius: 5px;
+  background: lightslategrey;
+  color: white;
+}

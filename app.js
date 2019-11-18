@@ -24,22 +24,30 @@ quotes = [
 function getRandomQuote() {
   index = Math.floor(Math.random() * quotes.length);
   return quotes[4];
+  console.log();
 }
-
-app.use(cors());
-app.use(express.static("public"));
-
-app.get("/", (req, res) => res.send("index"));
 
 // write route to get all quotes below this line
 
 // (insert your code here)
+
+app.use(express.static("views"));
+app.use(express.urlencoded());
+
+app.get("/", (req, res) => res.render("index.html"));
+
+// return all values in an array :
+// for (let i = 0; i < quote.length; i++)
 
 //---------------------------
 
 // write route to get a random quote below this line
 
 // (insert your code here)
+
+// function randomQuote() {
+//   quotes[Math.floor(Math.random() * quotes.length)];
+// }
 
 //---------------------------
 
