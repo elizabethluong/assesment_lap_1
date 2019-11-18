@@ -13,7 +13,7 @@ $(document).ready(() => {
         "align-items": "center"
       });
 
-      $("#text").html(quote);
+      $("#text").html(quote); // need to  apend quote
     });
   });
 });
