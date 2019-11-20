@@ -3,7 +3,7 @@ $(document).ready(() => {
   $("form").submit(event => {
     event.preventDefault();
     $("h1").toggle();
-    axios.post("").then(response => {
+    axios.get("http://localhost:3000/randomQuote").then(response => {
       quote = response.data;
       $("#text").css({
         "text-align": "center",
